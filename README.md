@@ -26,17 +26,20 @@ Here:
 * c - content image
 * s - style image
 
-![alt_text](https://github.com/HalyshAnton/AdaIN/blob/main/formulas/formula%20degree%20of%20stylization.png)
+![alt_text](https://github.com/HalyshAnton/AdaIN/blob/main/formulas/formula%20degree%20of%20stylization.png)  
+
 ![alt text](https://github.com/HalyshAnton/AdaIN/blob/main/degree%20of%20stylization.png)
 
 # Style interpolation
 To interpolate between a set of style images with corresponding weights we similarly interpolate between AdaIN outputs
 
-![alt_text](https://github.com/HalyshAnton/AdaIN/blob/main/formulas/formula%20style%20interpolation.png)
+![alt_text](https://github.com/HalyshAnton/AdaIN/blob/main/formulas/formula%20style%20interpolation.png)  
+
 ![alt text](https://github.com/HalyshAnton/AdaIN/blob/main/weighted%20stylization.png)
 
 # Color control
 To preserve the color of the content image, we first match the color distribution of the style image to that of the content image using linear transform for each pixel.I use 3 methods for building matrix A: cholesky, PCA and building symetric matrix. After that I perform a normal style transfer with new style image.
 
 ![alt_text](https://github.com/HalyshAnton/AdaIN/blob/main/formulas/formula%20color%20control.png)  
+  
 ![alt text](https://github.com/HalyshAnton/AdaIN/blob/main/color%20control.png)
