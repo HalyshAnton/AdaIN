@@ -19,7 +19,8 @@ Decoder: The reverse of the encoder process is performed using a decoder. It has
 ![alt text](https://github.com/HalyshAnton/AdaIN/blob/main/formulas/model%20architecture.png)
 <p align="center">
  <src=https://github.com/HalyshAnton/AdaIN/blob/main/formulas/model%20architecture.png>
-</p>
+ </p>
+
 # Degree of stylization
 The degree of stylization (alpha) can be regulated by using the operation of linear combination between content feature and AdaIN output before using decoder.  
 Here:
